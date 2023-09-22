@@ -1,0 +1,92 @@
+header { background-color: black;
+margin-top: 0px;
+border-style:inset;
+border-color: #00FF00;
+}
+footer { background-color: #black;
+color: #00FF00;
+}
+h1 {
+	color:#00FF00;
+}
+.footer { border-style:outset;
+border-color:#00FF00;
+}
+
+a { text-decoration: none;
+}
+.box  { background-color:;
+padding: 25px;
+height:55px;
+width: 800px;
+background-color:;
+margin-left: 180px;
+animation-name: slidein;
+animation-duration:3s;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left:180px;
+    width: 100%;
+  }
+}
+.box1{ background-color: white;
+padding: 15px;
+float: left;
+overflow: hidden;
+border-width: 2px;
+border-style: solid;
+margin-left: 225px;
+margin-top: 4px;
+}
+.box2 { background-color: white;
+padding: 15px;
+float: left;
+border-width: 2px;
+border-style: solid;
+margin-left: 2px;
+margin-top: 4px;
+
+
+}
+.box3 { background-color: white;
+padding: 15px;
+float: left;
+border-width: 2px;
+border-style: solid;
+margin-left: 2px;
+margin-top: 4px;
+
+}
+.info { margin-top: 468px;
+	padding: 1px;
+	background-color:black;
+	color:#00FF00;
+}
+
+a:hover { text-decoration: none;
+color: black;
+}
+a:visited {color:black;
+	
+}
+a:active {color:black;
+	
+}
+body { background-color: black;
+}
+p {
+	color:#00FF00
+}
+#clock {
+	margin-top:10px;
+	text-align:center;
+	padding:1px;
+	color:#00FF00;
+
+}
